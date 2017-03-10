@@ -86,17 +86,7 @@ int main()
 
             break;
         case 2:
-            cout << "Which animal would you like to delete? ";
-            int n;
-            cin >> n;
-n-=1;
-            zwierzak.erase (zwierzak.begin() + n);
-
-            cout << "Zwierze zostalo usuniete z bazy !";
-
-
-
-            break;
+        break;
         case 3:
             cout << "Animals in your shelter: \n";
             for (int i=0; i<zwierzak.size(); i++)
